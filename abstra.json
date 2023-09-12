@@ -1,0 +1,51 @@
+{
+  "version": "0.1",
+  "workspace": {
+    "name": "Untitled Workspace",
+    "sidebar": [
+      {
+        "id": "abstra_lichess_dash",
+        "name": "lichess_dash",
+        "path": "abstra_lichess_dash",
+        "type": "dash",
+        "visible": false
+      }
+    ],
+    "root": null,
+    "theme": null,
+    "logo_url": null,
+    "brand_name": null,
+    "main_color": null,
+    "font_family": null,
+    "font_color": null
+  },
+  "forms": [],
+  "dashes": [
+    {
+      "path": "abstra_lichess_dash",
+      "title": "lichess_dash",
+      "layout": {
+        "props": {},
+        "version": "0.2",
+        "slot": {
+          "bf427aee-5f5a-4ea5-b82e-93689ae5bd54": {
+            "id": "bf427aee-5f5a-4ea5-b82e-93689ae5bd54",
+            "type": "plotly-output",
+            "colStart": 0,
+            "colEnd": 11,
+            "rowStart": 4,
+            "rowEnd": 15,
+            "props": {
+              "label": "date and ELO rating"
+            },
+            "events": {},
+            "variable": null
+          }
+        }
+      },
+      "file": "abstra_lichess_dash.py"
+    }
+  ],
+  "hooks": [],
+  "jobs": []
+}
